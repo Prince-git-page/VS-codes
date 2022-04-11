@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>HTML forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="www.backend.com/p" target="_blank" method="get">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <h2>Enter Name</h2>
+        <label for="firstname">First Name</label>
+        <br>
+        <input type="text" name="firstname" value="P"  placeholder="Enter your first name" autocomplete="off" required readonly>
+        <br>
+        <label for="lastname">Last Name</label>
+        <br>
+        <input type="text" value="G" name="lastname" disabled>
+        <br>
+        <label for="countrycode">Country code:</label>
+        <br>
+        <input type="text" id="countrycode" name="countrycode" pattern="[A-Za-z0-9]{3}" title="three letter country code">
+        </fieldset>
+       
+        
+
+        <fieldset> 
+        <label for="email">Email:</label>
+        <br>
+        <legend>Email Details</legend>
+        <input type="email" name="email" autocomplete="off" placeholder="xyz@gmail.com" maxlength="20" value="hch@gmail.com" hidden>
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" autocomplete="off" autofocus>
+        <br>
+        <label for="points">Points:</label>
+        <br>
+        <input type="number" id="points" name="points" step="3">
+        <br>
+        <br>
+        </fieldset>
+        <input type="submit" value="Next">
+    </form>
+    <form>
+        <input type="text" placeholder="address">
+        <input type="text" placeholder="city" autofocus>
+        <!---autofocus doesn't work here-->
+    </form>
+
+    <form>
+        <h2>Enter 1st and 2nd fav language</h2>
+        <input type="radio" id="html" name="fav_lang" value="htmlLang">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="fav_lang" value="cssLang">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" id="javascript" name="fav_lang" value="javascriptLang">
+        <label for="javascript">JAVASCRIPT</label>
+        <br>
+        <br>
+
+        <input type="radio" id="c" name="fav_lang 2">
+        <label for="c">C</label>
+        <br>
+        <input type="radio" id="c++" name="fav_lang 2">
+        <label for="c++">C++</label>
+        <br>
+        <input type="radio" id="java" name="fav_lang 2">
+        <label for="java">Java</label>
+    </form>
+
+    <form>
+        <h2>Checkboxes - Select 0 or more options</h2>
+        <input type="checkbox" id="vehicle1" value="bike">
+        <label for="vehicle1">I have a bike</label>
+        <br>
+        <input type="checkbox" id="vehicle2" value="car">
+        <label for="vehicle2">I have a car</label>
+        <br>
+        <input type="checkbox" id="vehicle3" value="boat">
+        <label for="vehicle3">I have a boat</label>
+
+    </form>
+    <br>
+    <br>
+
+    <form action="/handle-data" target="_blank">
+        <label for="cars">Select :</label>
+        <select name="cars" size="2" multiple>
+            <option value="volvo">Volvo car</option>
+            <option value="audi">Audi car</option>
+            <option value="bmw">Bmw car</option>
+            <option value="ferrari">Ferrari car</option>
+        </select>
+
+        <br>
+        <label for="essay">Essay</label>
+            <br>
+            <textarea name="essay" id="essay" col="30" rows="10"></textarea>
+            <button type="button">Clear text area</button>
+            <input type="submit">
+  
+    </form>
+</body>
+</html>

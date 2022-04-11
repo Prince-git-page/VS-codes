@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>document</title>
+    <!-- comment of html -->
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        *{
+            background-color: aquamarine;
+        }
+        #colored{
+            /* Intenal CSS */
+            color:green;
+            text-align:right;
+        }
+        /* h2{
+            text-align:center;
+        } */
+        .centre{
+            text-align: center;
+        }
+        div p{
+            /* this is a descendant selector */
+            background-color: aqua;
+        }
+        .className p{
+            background-color:brown;
+        }
+        .childSelector>p{
+            background-color: green;
+        }
+        div+p{
+            background-color: blue;
+        }
+        div~p{
+            background-color: blueviolet;
+        }
+        a:link{
+            color:red
+        }
+        a:visited{
+            color:green
+        }
+        a:hover{
+            color:hotpink
+        }
+        a:active{
+            color:aqua
+        }
+        div:hover{
+            background-color: blueviolet;
+        }
+        .pseudo-el::first-line{
+            color:red;
+            font-variant:small-caps;
+        }
+        .pseudo-el::first-letter{
+            color:blue;
+            font-size:xx-large;
+        }
+        .before-property::after{
+            content:url("download.jpg")
+        }
+        ::marker{
+            color:red;
+        }
+        p::selection{
+            color:red;
+            background-color: yellow;
+        }
+        a[target]{
+            background-color: yellow;
+        }
+        input[type=text]{
+            width:150px;
+            display:block;
+            margin-bottom: 10px;
+            background-color: yellow;
+        }
+        input[type=button]{
+            width:120px;
+            margin-left:35px;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="colored">Welcome to CSS</h1>
+    <h2 class="centre">Hi</h2>
+    <h1>CSS</h1>
+    <h1>Hey</h1>
+    <h1 class="centre">Hello</h1>
+
+    <!-- <div>
+        <p>1st para</p>
+        <p>2nd para</p>
+        <div>
+            <p>3rd para</p>
+            <p>4th para</p>
+        </div>
+    </div>
+    <p>3rd para</p>
+
+    <section class="className">
+        <p>
+            hi,this is a para
+        </p>
+        <p>
+            second para
+        </p>
+    </section>
+
+    <div class="childSelector">
+        <p>para1</p>
+        <p>para2</p>
+        <div>
+            <p>para3</p>
+            <p>para4</p>
+        </div> -->
+    <!-- </div> -->
+
+    <p>prepara</p>
+    <div>
+        <p>para0</p>
+        <p>para1</p>
+    </div>
+    <p>para2</p>
+    <p>para3</p>
+
+    <a href="https:\\www.acciojob.com">AccioJob</a>
+    <a href="https:\\www.google.com" target="_blank">Google</a>
+
+    <div>
+        abcd -hover over me
+    </div>
+
+    <p class="pseudo-el">
+        hgdfjkjkdhghjjhgfckjdjsfcjskjgcgfsjcj
+        cvdjkjckjdkhcgjds.cjhdgjchkdjjcdgcdjhfcgdhg
+    </p>
+
+    <h1 class="before-property">
+        Heading
+    </h1>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+    </ul>
+    <ol>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+
+    <form action="" method="get">
+        Firstname:
+        <input type="text" name="Name" value="P" size="20">
+        Lastname:
+        <input type="text" name="Name" value="G" size="20">
+        <input type="button" value="Example button">
+    </form>
+
+</body>
+</html>
