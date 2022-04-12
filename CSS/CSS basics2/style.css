@@ -1,0 +1,104 @@
+.font-fam{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+.font-var{
+    font-variant: small-caps;
+    font-style: italic;
+}
+.font-wt{
+    font-weight:700;
+}
+.font-size{
+    font-size:20px;
+}
+.random-text{
+    font-stretch: ultra-expanded;
+}
+.combined{
+    font:italic 200 20px small-caps georgia;
+}
+.direction-opp{
+    direction:rtl;
+}
+.text-indent{
+    text-indent: 2in;
+}
+p.example-1{
+    border-width:1px;
+    border-bottom-width:3px;
+    border-style:dotted;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+
+    border-top-color: green;
+    border-bottom-color:blue;
+    border-right-color: yellowgreen;
+    border-left-color: brown;
+
+}
+.example-2>span{
+    border-width: 3px;
+    border-style:solid;
+    border-color:green ;
+}
+.border-shorthand{
+    border:3px solid blueviolet;
+}
+.border-bottom{
+    border-bottom-width:3px;
+    border-bottom-style:solid;
+    border-bottom-color:brown;
+}
+.p1{
+   margin:15px;
+} 
+.p2{
+    margin 50px 5%;
+    /* 50 px on top and bottom and 5%of total pixel of screen on left and right */
+}
+.p3{
+    margin:10px 2% -10px auto;
+    /* top right bottom left it goes clockwise */
+    border:2px solid blue;
+}
+.p4{
+    padding:15px;
+    border: 2px solid green;
+    margin:20px 2%
+}
+.p5{
+    padding:15px;
+    padding-left: 30px;;
+    border:2px solid brown;
+    background-color: aqua;
+}
+.div-1{
+    width:300px;
+    height:100px;
+    border:1px solid red;
+}
+.div-2{
+    width:300px;
+    height:100px;
+    padding:50px;
+    border:1px solid red;
+
+}
+.div-3{
+    widht:300px;
+    height:100px;
+    border:1px solid black;
+    box-sizing:border-box;
+}
+.div-4{
+    widht:300px;
+    height:100px;
+    padding:50px;
+    border:1px solid black;
+    box-sizing:border-box;
+
+}
+/* *{
+    box-sizing:border-box;
+} */
