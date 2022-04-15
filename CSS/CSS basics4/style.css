@@ -1,0 +1,102 @@
+/* .div1{
+    height:100px;
+    widht:400px;
+    background-color: springgreen;
+    position: relative;
+    bottom:-30px;
+    left:10px;
+    opacity:0.5;
+}
+.div2{
+    height:300px;
+    width:350px;
+    background-color: pink;
+    position: relative;
+    top:-20px;
+    left:20px;
+    z-index:-1;
+}
+.responsive{
+    widht:1200px;
+    margin:20px;
+    width:100%;
+    background-color: aqua;
+}
+@media screen and (max-width:800px){
+    .responsive{
+        width:800px;;
+        background-color: blueviolet;
+        color:white;
+        padding:20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .responsive{
+        width:100%;
+        background-color: yellowgreen;
+        color:white;
+
+    }
+}
+*{
+    box-sizing: border-box;
+}
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a{
+       float:left; 
+       display: block;
+       color:white;
+       text-align:center;
+       padding:14px 14px;
+       text-decoration: underline;
+}
+@media screen and (max-width:500px){
+    .topnav a{
+        width:100%;
+    }
+}
+p>img{
+    float:left;
+    margin:10px;
+}
+.diva{
+    background-color: aqua;
+}
+.divb{
+    background-color: red;
+}
+.divc{
+    background-color: yellow;
+}
+.diva{
+    float:right;
+}
+.divb{
+    float:right;
+}
+.divc{
+    float:right;
+} */
+.divd{
+    float:left;
+    border:1px solid red;
+    padding:10px;
+}
+.dive{
+    padding:10px;
+    border:3px solid green;
+}
+.divf{
+    padding:10px;
+    float:left;
+    border:3px solid black;
+}
+.divg{
+    padding:10px;
+    border:3px solid blue;
+    clear:left;
+}
+
