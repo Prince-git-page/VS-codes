@@ -1,0 +1,112 @@
+:root{
+    --headingcolor:#66BFBF;
+}
+
+body{
+    font-family: 'Merriweather','serif';
+    margin:0;
+    text-align: center;
+    color:#40514E;
+}
+h1{
+    font-family:'Sacramento',cursive;
+    font-size:6em;
+    color:var(--headingcolor);
+}
+h2{
+    color:var(--headingcolor);
+    font-family:'Montserrat','sans-serif';
+    font-size: 2.5em;
+    font-weight: normal;
+    padding-bottom:10px;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding:10px;
+}
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:250px;
+    bottom:300px;
+}
+.pro{
+    text-decoration: underline;
+}
+.intro i{
+    color:red;
+}
+.profile img{
+    border-radius: 50%;
+}
+h3{
+    color:#11999E;
+    font-family: 'Montserrat''sans-serif';
+}
+hr{
+    border:dotted lightblue 6px;
+    border-bottom: none;
+    width:4%;
+}
+a{
+    color:#11999E;
+    font-family: 'Montserrat','sans-serif';
+    margin: 10px 20px;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+.middle-container{
+    margin:100px 0;
+}
+.bottom-container{
+    background-color: var(--headingcolor);
+    padding:50px 0 20px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+}
+.code-img{
+    width:30%;
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+}
+.netflix-img{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+.ml-img{
+    width:30%;
+    float:left;
+    margin-left:10px;
+    margin-right:20px;
+}
+.contact-message{
+    width:40%;
+    margin:40px auto 60px;
+}
+.btn:hover{
+    background-color: #30e3cb;
+}
+.footer-link{
+    color:white;
+}
+.btn{
+    background-color: #11cdd4;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color:#ffffff;
+    font-size:20px;
+    padding:10px 20px;
+
+}
